@@ -18,6 +18,7 @@ var findNearBy = document.querySelectorAll('.btn');
 
 // Rules
 const rulesEl = document.getElementById('rules');
+const nearbyEl = document.getElementById('nearby');
 
 // Dietary requirements 
 var vegetarians = document.getElementById('vegetarian');
@@ -49,9 +50,16 @@ var indianVids = document.getElementById('indianVid')
 var comfortFoodVids = document.getElementById('comfortFoodVid')
 var vidRights = document.getElementById('videoRights')
 
+
+function showDescription(){
+    rulesEl.setAttribute('style', 'display: none');
+    nearbyEl.setAttribute('style', 'display: block;');
+}
+
 // event click on each images
 mex.addEventListener('click', function() {
-    rulesEl.setAttribute('style', 'display: none');
+    showDescription();
+
     mexican.setAttribute('style', 'display: inline;');
     cuisineSelected = "mexican";
     localStorage.setItem("cuisine-type", "Mexican");
@@ -59,7 +67,8 @@ mex.addEventListener('click', function() {
 });
 
 ital.addEventListener('click', function() {
-    rulesEl.setAttribute('style', 'display: none');
+    showDescription();
+
     italian.setAttribute('style', 'display: inline;');
     cuisineSelected = "italian";
     localStorage.setItem("cuisine-type", "Italian");
@@ -67,7 +76,8 @@ ital.addEventListener('click', function() {
 });
 
 asia.addEventListener('click', function() {
-    rulesEl.setAttribute('style', 'display: none');
+    showDescription();
+
     asian.setAttribute('style', 'display: inline;');
     cuisineSelected = "asian";
     localStorage.setItem("cuisine-type", "Asian");
@@ -75,7 +85,8 @@ asia.addEventListener('click', function() {
 });
 
 indi.addEventListener('click', function() {
-    rulesEl.setAttribute('style', 'display: none');
+    showDescription();
+
     indian.setAttribute('style', 'display: inline;');
     cuisineSelected = "indian";
     localStorage.setItem("cuisine-type", "Indian");
@@ -83,7 +94,8 @@ indi.addEventListener('click', function() {
 });
 
 burger.addEventListener('click', function() {
-    rulesEl.setAttribute('style', 'display: none');
+    showDescription();
+    
     comfort.setAttribute('style', 'display: inline;');
     cuisineSelected = "american";
     localStorage.setItem("cuisine-type", "Comfort food");
