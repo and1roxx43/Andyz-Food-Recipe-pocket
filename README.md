@@ -8,3 +8,7 @@ Two different APIs are used:
 Edamam Recipe Search API: https://developer.edamam.com/edamam-recipe-api
 
 Google Maps API: https://developers.google.com/maps/documentation/javascript/overview
+___
+
+### URL
+- https://and1roxx43.github.io/Andyz-Food-Recipe-pocket/
