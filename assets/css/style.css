@@ -113,6 +113,14 @@ p {
     background-color:  #707209;
 }
 
+/* how to select */
+
+#rules {
+    font-family: cursive;
+    color:#000;
+    text-align: center;
+}
+
 /* dietary requirement h2 element */
 
 #diet-fieldset {
