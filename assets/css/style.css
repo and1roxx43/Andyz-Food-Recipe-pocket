@@ -92,6 +92,10 @@ p {
     background-position: center;
 }
 
+.food-desc {
+    text-align: center;
+}
+
 .search-btn {
     display: flex;
     align-items: center;
