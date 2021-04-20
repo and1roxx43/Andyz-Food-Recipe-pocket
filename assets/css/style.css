@@ -114,7 +114,8 @@ p {
 }
 
 #search:hover {
-    background-color:  #707209;
+    background-color: #ccc5c5;
+    cursor: pointer;
 }
 
 /* how to select */
@@ -182,6 +183,7 @@ p {
 
 .btn:hover {
     background-color: #000;
+    cursor: pointer;
 }
 
 /* Main container where recipe is to be displayed */
