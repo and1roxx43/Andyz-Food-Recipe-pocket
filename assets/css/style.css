@@ -118,14 +118,16 @@ p {
 #rules {
     text-align: center;
     font-family: cursive;
-    color:#000;
+    font-weight: 200;
+    color:#888;
     margin: 0 auto;
     width: 60%;
 }
 
 #nearby {
     font-family: cursive;
-    color: #000;
+    font-weight: 200;
+    color: #888;
     display: none;
 }
 
